@@ -15,7 +15,7 @@ from __future__ import absolute_import
 import unittest
 
 import swagger_client
-from swagger_client.models.Job import Job  # noqa: E501
+from swagger_client.models.job import Job  # noqa: E501
 from swagger_client.rest import ApiException
 
 
@@ -31,7 +31,7 @@ class TestJob(unittest.TestCase):
     def testJob(self):
         """Test Job"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.Job.Job()  # noqa: E501
+        # model = swagger_client.models.job.Job()  # noqa: E501
         pass
 
 

@@ -14,8 +14,8 @@
 from __future__ import absolute_import
 
 # import models into model package
-from swagger_client.models.Asset import Asset
-from swagger_client.models.Job import Job
+from swagger_client.models.asset import Asset
+from swagger_client.models.job import Job
 from swagger_client.models.inline_response2_xx import InlineResponse2XX
 from swagger_client.models.inline_response2_xx1 import InlineResponse2XX1
 from swagger_client.models.inline_response2_xx_job import InlineResponse2XXJob

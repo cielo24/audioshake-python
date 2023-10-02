@@ -21,8 +21,8 @@ from swagger_client.api.upload_api import UploadApi
 from swagger_client.api_client import ApiClient
 from swagger_client.configuration import Configuration
 # import models into sdk package
-from swagger_client.models.Asset import Asset
-from swagger_client.models.Job import Job
+from swagger_client.models.asset import Asset
+from swagger_client.models.job import Job
 from swagger_client.models.inline_response2_xx import InlineResponse2XX
 from swagger_client.models.inline_response2_xx1 import InlineResponse2XX1
 from swagger_client.models.inline_response2_xx_job import InlineResponse2XXJob
