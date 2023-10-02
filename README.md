@@ -24,7 +24,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import swagger_client 
+import swagger_client
 ```
 
 ### Setuptools
@@ -55,7 +55,7 @@ from pprint import pprint
 
 # create an instance of the API class
 api_instance = swagger_client.JobApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+id = 'id_example' # str |
 
 try:
     # Get a job given an Id.
@@ -91,8 +91,8 @@ Class | Method | HTTP request | Description
 
 ## Documentation For Models
 
- - [Def0](docs/Def0.md)
- - [Def1](docs/Def1.md)
+ - [Asset](docs/Asset.md)
+ - [Job](docs/Job.md)
  - [InlineResponse2XX](docs/InlineResponse2XX.md)
  - [InlineResponse2XX1](docs/InlineResponse2XX1.md)
  - [InlineResponse2XXJob](docs/InlineResponse2XXJob.md)
