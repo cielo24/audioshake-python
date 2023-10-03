@@ -52,6 +52,9 @@ import audioshake
 from audioshake.rest import ApiException
 from pprint import pprint
 
+# create the configuration
+configuration = audioshake.Configuration()
+configuration.access_token = "YOUR_BEARER_TOKEN"
 
 # create an instance of the API class
 api_instance = audioshake.JobApi(audioshake.ApiClient(configuration))

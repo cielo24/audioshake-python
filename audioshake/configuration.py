@@ -61,6 +61,10 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
         self.username = ""
         # Password for HTTP basic authentication
         self.password = ""
+
+         # access token for apiToken
+        self.access_token = ""
+
         # Logging Settings
         self.logger = {}
         self.logger["package_logger"] = logging.getLogger("audioshake")
@@ -229,6 +233,13 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
         :return: The Auth Settings information dict.
         """
         return {
+            'token':
+                {
+                    'type': 'token',
+                    'in': 'header',
+                    'key': 'Authorization',
+                    'value': 'Bearer ' + self.access_token
+                },
         }
 
     def to_debug_report(self):
