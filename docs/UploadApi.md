@@ -1,4 +1,4 @@
-# swagger_client.UploadApi
+# audioshake.UploadApi
 
 All URIs are relative to *https://groovy.audioshake.ai*
 
@@ -17,14 +17,14 @@ Create a new asset from a file link.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import audioshake
+from audioshake.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.UploadApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UploadAudiolinkBody() # UploadAudiolinkBody | 
+api_instance = audioshake.UploadApi(audioshake.ApiClient(configuration))
+body = audioshake.UploadAudiolinkBody() # UploadAudiolinkBody |
 
 try:
     # Create a new asset from a file link.
@@ -38,7 +38,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**UploadAudiolinkBody**](UploadAudiolinkBody.md)|  | 
+ **body** | [**UploadAudiolinkBody**](UploadAudiolinkBody.md)|  |
 
 ### Return type
 
@@ -64,14 +64,14 @@ Create a new asset from a file link.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import audioshake
+from audioshake.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.UploadApi(swagger_client.ApiClient(configuration))
-body = swagger_client.UploadLinkBody() # UploadLinkBody | 
+api_instance = audioshake.UploadApi(audioshake.ApiClient(configuration))
+body = audioshake.UploadLinkBody() # UploadLinkBody |
 
 try:
     # Create a new asset from a file link.
@@ -85,7 +85,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**UploadLinkBody**](UploadLinkBody.md)|  | 
+ **body** | [**UploadLinkBody**](UploadLinkBody.md)|  |
 
 ### Return type
 
@@ -111,14 +111,14 @@ Create a new asset.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import audioshake
+from audioshake.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.UploadApi(swagger_client.ApiClient(configuration))
-file = '/path/to/file' # file | 
+api_instance = audioshake.UploadApi(audioshake.ApiClient(configuration))
+file = '/path/to/file' # file |
 
 try:
     # Create a new asset.
@@ -132,7 +132,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **file** | [**file**](.md)|  | 
+ **file** | [**file**](.md)|  |
 
 ### Return type
 

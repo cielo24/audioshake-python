@@ -1,4 +1,4 @@
-# swagger_client.JobApi
+# audioshake.JobApi
 
 All URIs are relative to *https://groovy.audioshake.ai*
 
@@ -16,14 +16,14 @@ Get a job given an Id.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import audioshake
+from audioshake.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.JobApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = audioshake.JobApi(audioshake.ApiClient(configuration))
+id = 'id_example' # str |
 
 try:
     # Get a job given an Id.
@@ -37,7 +37,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
+ **id** | **str**|  |
 
 ### Return type
 
@@ -63,14 +63,14 @@ Create a new job.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import audioshake
+from audioshake.rest import ApiException
 from pprint import pprint
 
 
 # create an instance of the API class
-api_instance = swagger_client.JobApi(swagger_client.ApiClient(configuration))
-body = swagger_client.JobBody() # JobBody |  (optional)
+api_instance = audioshake.JobApi(audioshake.ApiClient(configuration))
+body = audioshake.JobBody() # JobBody |  (optional)
 
 try:
     # Create a new job.
@@ -84,7 +84,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**JobBody**](JobBody.md)|  | [optional] 
+ **body** | [**JobBody**](JobBody.md)|  | [optional]
 
 ### Return type
 

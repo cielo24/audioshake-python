@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.asset import Asset  # noqa: E501
-from swagger_client.rest import ApiException
+import audioshake
+from audioshake.models.asset import Asset  # noqa: E501
+from audioshake.rest import ApiException
 
 
 class TestAsset(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestAsset(unittest.TestCase):
     def testAsset(self):
         """Test Asset"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.asset.Asset()  # noqa: E501
+        # model = audioshake.models.asset.Asset()  # noqa: E501
         pass
 
 
